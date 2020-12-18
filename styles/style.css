@@ -64,6 +64,7 @@
 .cont{
     margin-top: -170px;
     border: solid gray 1px;
+    background-color: rgb(224, 224, 224);
 }
 .cont h3{
     margin-left: 400px;
@@ -74,19 +75,36 @@
 .partenaires{
     margin-top: 20px;
 }
+i.icon{
+    display: none;
+}
 @media screen and (max-width:768px){
     .container-fluid .abs{
     position: relative;
     left: 23px;
-    bottom: 220px;
+    bottom: 220px;}
+    i.icon{
+        display: block;
+        position:absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav-link{
+        display: none;
+    }
+    
 }
 .flt{
     border:gray solid 2px;
     left: 100px;
     top: 730px;
 }
-
-/*acceuil*/
-.container .bluetext{
+/*services*/
+.bluetext{
     color: blue;
 }
+
+
+
+
+
