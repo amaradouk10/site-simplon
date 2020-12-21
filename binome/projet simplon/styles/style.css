@@ -1,7 +1,7 @@
 
 .logop{
     color: red;
-    margin-left: 75px;
+    margin-left: 75px;  
     margin-top: -55px;
 }
 .nav{
@@ -23,31 +23,13 @@
     height: 500px;
     background-image: url(../images/simplon_inauguration_0.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     justify-self: center;
 }
-@media all and (max-width:1024px)
-{
-    .bienvenue background-image{
-        width: 100%;
-    }
-}
-@media only screen and (min-width:268pxpx)
-{
-    .bienvenue background-image{
-        width: 100%;
-    }
-}
-@media screen and (max-width:767){
-    .bienvenue background-image{
-        width: 100%;
-    }
-}
-
 .bienvenue h3 {
     color:black;
     border: 1px solid white;
